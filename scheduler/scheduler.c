@@ -89,3 +89,8 @@ void shRunMethod(delay_t * method)
 			shUnregisterStruct(method);
 	}
 }
+
+void shRearm(delay_t * del)
+{
+	del->last = *sysTime;
+}

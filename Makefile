@@ -48,6 +48,8 @@ PROJECT = test
 # setting.
        
 CSRC+= $(wildcard files/*.c)
+CSRC+= $(wildcard scheduler/*.c)
+CSRC+= $(wildcard drivers/*.c)
        
 
 # C++ sources that can be compiled in ARM or THUMB mode depending on the global
@@ -77,7 +79,7 @@ TCPPSRC =
 # List ASM source files here
 ASMSRC = $(PORTASM)
 
-INCDIR = files drivers
+INCDIR = files drivers scheduler
 
 #
 # Project, sources and paths

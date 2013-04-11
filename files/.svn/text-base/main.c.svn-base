@@ -1,0 +1,21 @@
+#include "main.h"
+
+void mcu_init(void);
+
+//main code here
+int main(void){
+	
+	mcu_init();
+
+	while(1){
+		//your programme here, endless loop
+	}
+
+	return 1;
+}
+
+
+//init code here
+void mcu_init(void){
+	
+}

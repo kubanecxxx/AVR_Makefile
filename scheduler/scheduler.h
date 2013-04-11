@@ -32,5 +32,6 @@ void shRegisterStruct(delay_t * del);
 void shUnregisterStruct(delay_t * del);
 void shPlay(void);
 void shInit(systime_t * systemTick);
+void shRearm(delay_t * del);
 
 #endif /* SCHEDULER_H_ */
