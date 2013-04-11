@@ -1,5 +1,0 @@
-#!/bin/zsh
-
-make clean > /dev/null
-make  > /dev/null
-make install > /dev/null
